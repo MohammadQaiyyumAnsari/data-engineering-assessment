@@ -1,0 +1,4 @@
+line_number,order_id,error_type,raw_data
+4,1002,DUPLICATE_IGNORED,"{'order_id': '1002', 'customer_id': '102', 'order_date': '2025-01-08', 'order_status': 'Delivered', 'payment_method': 'UPI', 'updated_at': '2025-01-08 12:00:00'}"
+6,1017,MISSING_CUSTOMER_ID,"{'order_id': '1017', 'customer_id': '', 'order_date': '2025-03-26', 'order_status': 'Pending', 'payment_method': 'Card', 'updated_at': '2025-03-26 09:00:00'}"
+8,1019,INVALID_ORDER_DATE,"{'order_id': '1019', 'customer_id': '109', 'order_date': 'invalid_date', 'order_status': 'Delivered', 'payment_method': 'Card', 'updated_at': '2025-03-28 15:00:00'}"
